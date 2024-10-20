@@ -171,7 +171,6 @@
   </nav>
 </header>
 
-
     <div class="md-container">
         <main class="md-main">
             <div class="md-main__inner md-grid full-width" data-md-component="container">
@@ -772,7 +771,6 @@
   </div>
 </div>
 
-
 <div class="md-sidebar md-sidebar--secondary invisible" data-md-component="toc">
   <div class="md-sidebar__scrollwrap">
     <div class="md-sidebar__inner">
@@ -1059,7 +1057,6 @@ end
 
 <p>To strike a balance between flexibility and performance when constructing the <code class="language-plaintext highlighter-rouge">spl::Sampler</code> instance, the model is first run by sampling the parameters in <code class="language-plaintext highlighter-rouge">P</code> from their priors using an <code class="language-plaintext highlighter-rouge">UntypedVarInfo</code>, i.e. a type unstable <code class="language-plaintext highlighter-rouge">Metadata</code> is used for all the variables. Then once all the symbols and distribution types have been identified, a <code class="language-plaintext highlighter-rouge">vi::TypedVarInfo</code> is constructed where <code class="language-plaintext highlighter-rouge">vi.metadata</code> is a <code class="language-plaintext highlighter-rouge">NamedTuple</code> mapping each symbol in <code class="language-plaintext highlighter-rouge">P</code> to a specialized instance of <code class="language-plaintext highlighter-rouge">Metadata</code>. So as long as each symbol in <code class="language-plaintext highlighter-rouge">P</code> is sampled from only one type of distributions, <code class="language-plaintext highlighter-rouge">vi::TypedVarInfo</code> will have fully concretely typed fields which brings out the peak performance of Julia.</p>
 
-
     
 <script
 src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -1130,7 +1127,6 @@ $(document).ready(function() {
 }
 </style>
 
-
     </article>
 </div>      
 
@@ -1152,7 +1148,6 @@ $(document).ready(function() {
     
   </div>  
 </footer>
-
 
     <script src="/v0.15.5/assets/js/application.js"></script>
     
@@ -1248,6 +1243,6 @@ function topFunction() {
 
     
 
-
   </body>
 </html>
+
