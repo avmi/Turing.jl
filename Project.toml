@@ -1,6 +1,6 @@
 name = "Turing"
 uuid = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
-version = "0.45.0"
+version = "0.45.1"
 
 [deps]
 ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
@@ -54,7 +54,7 @@ Accessors = "0.1"
 AdvancedHMC = "0.8.3"
 AdvancedMH = "0.8.9"
 AdvancedPS = "0.7.2"
-AdvancedVI = "0.6"
+AdvancedVI = "0.6, 0.7"
 BangBang = "0.4.2"
 Bijectors = "0.15.17"
 Compat = "4.15.0"
